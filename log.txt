@@ -1,0 +1,5 @@
+
+dao.SenderInfoDao,error:Wrong number of parameters: expected 0, was given 1 Query: insert into `send` (id) values(,,,,,,,,,) Parameters: [c1d200c9-c93c-45e0-bfe8-c3fb3c5a2964]
+dao.SenderInfoDao,error:Wrong number of parameters: expected 0, was given 6 Query: insert into `send` (id,phone,mobile,company,name,address) values(,,,,,,,,,) Parameters: [9a4afec3-c70f-42e3-8657-15745af3c83a, 123213213213, 1212312312212121, 顺丰, 朱江桃2, 上海]
+dao.SenderInfoDao,error:Wrong number of parameters: expected 5, was given 6 Query: insert into `send` (id,phone,mobile,company,name,address) values(?,?,?,?,?) Parameters: [998ce32c-9613-42fb-8ca5-17c03b900b6f, 123213213213, 1212312312212121, 顺丰, 朱江桃2, 上海]
+dao.SenderInfoDao,warn:记录已经存在了，别插入了。：id:null	 mobile:1212312312212121	 phone:123213213213 	 company:顺丰	 name:朱江桃2	 adress:上海

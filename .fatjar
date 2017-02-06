@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sun Jan 22 14:45:26 CST 2017
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=Demo_fat.jar
+manifest.mergeall=true
+manifest.mainclass=TableEventHandle
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
